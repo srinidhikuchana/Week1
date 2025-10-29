@@ -67,7 +67,7 @@ Confusion Matrix Heatmap: Displays correct vs. incorrect predictions.
 
 Feature Importance Plot: Highlights key features influencing classification outcomes (based on SVM coefficients).
 
-## 🧩 Requirements
+## Requirements
 
 Python 3.x
 
@@ -96,7 +96,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 2. Clone the Repository
 
-git clone https://github.com/srinidhikuchana/Week1.git
+   git clone https://github.com/srinidhikuchana/Week1.git
 
 3. Navigate to the Project Directory
    cd Week1
