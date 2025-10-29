@@ -1,7 +1,7 @@
 # Electric Vehicle Type Predictor
 Electric Vehicle Type Predictor is a machine learning model that classifies electric vehicles as either Battery Electric Vehicles (BEVs) or Plug-in Hybrid Electric Vehicles (PHEVs) using the Electric Vehicle Population dataset from Kaggle. It analyzes key features to improve EV categorization accuracy.
 
-## 🧩 Problem Statement
+## Problem Statement
 
 With the rapid adoption of electric mobility, accurately classifying electric vehicles is essential for understanding market trends, policy-making, and infrastructure planning. However, due to the increasing diversity of electric vehicles — including Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) — manual categorization based on specifications and registration data becomes challenging and inefficient.
 
@@ -36,13 +36,13 @@ The dataset provides comprehensive information about electric and plug-in hybrid
 
 •	Electric Utility: Local electricity provider
 
-## 🎯 Target Variable
+## Target Variable
 
 Electric Vehicle Type — Predict whether a vehicle is a Battery Electric Vehicle (BEV) or a Plug-in Hybrid Electric Vehicle (PHEV).
 
 📂 Dataset Source: Download the dataset here [https://www.kaggle.com/datasets/gunapro/electric-vehicle-population-data]
 
-## ⚙️ Project Workflow
+## Project Workflow
 1. Data Preprocessing
 
 Feature Selection: Chose relevant features and removed redundant columns.
@@ -87,46 +87,40 @@ Install all dependencies using:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. Install Python
-Make sure you have Python 3.x installed on your system.
-You can verify using:
-
-python --version
-
+   Make sure you have Python 3.x installed on your system.
+   You can verify using:
+    python --version
 
 2. Clone the Repository
-Clone this repository to your local machine using:
 
 git clone https://github.com/srinidhikuchana/Week1.git
 
-
 3. Navigate to the Project Directory
-
-cd Week1
-
+   cd Week1
 
 4. Install the Required Libraries
 5. Install all dependencies using pip:
-
-pip install pandas numpy scikit-learn matplotlib seaborn
-
+    pip install pandas numpy scikit-learn matplotlib seaborn
 
 6. Open the Jupyter Notebook
 Launch Jupyter Lab or Notebook
 7. Load the Dataset
-Make sure the dataset (Electric_Vehicle_Population_Data.csv) is placed in the same directory as your notebook.
+ Make sure the dataset (Electric_Vehicle_Population_Data.csv) is placed in the same directory as your notebook.
 (If not, update the dataset path in the code.)
 
 8. Run All Cells
-Open the notebook file EV_type_predictor.ipynb and run all cells sequentially (Kernel → Restart & Run All).
+ Open the notebook file EV_type_predictor.ipynb and run all cells sequentially (Kernel → Restart & Run All).
 
 9. View Results
 
 10. (Optional) Run on Google Colab
 
 •	Upload the .ipynb file and dataset to Google Colab.
+
 •	Install required libraries with:
 !pip install pandas numpy scikit-learn matplotlib seaborn
+
 •	Run all cells to view results online.
