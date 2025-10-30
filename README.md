@@ -3,9 +3,7 @@ Electric Vehicle Type Predictor is a machine learning model that classifies elec
 
 ## Problem Statement
 
-With the rapid adoption of electric mobility, accurately classifying electric vehicles is essential for understanding market trends, policy-making, and infrastructure planning. However, due to the increasing diversity of electric vehicles — including Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) — manual categorization based on specifications and registration data becomes challenging and inefficient.
-
-This project aims to develop a machine learning model that automatically classifies electric vehicles as BEVs or PHEVs using key attributes such as electric range, model, make, price, and location. By leveraging the Electric Vehicle Population dataset, the model seeks to enhance the accuracy and reliability of EV classification, supporting data-driven insights into the electric vehicle ecosystem.
+To develop a machine learning model that automatically classifies electric vehicles as BEVs or PHEVs using key attributes such as electric range, model, make, price and location.
 
 ## Dataset
 The dataset provides comprehensive information about electric and plug-in hybrid vehicles, including technical specifications and registration details. It captures multiple features such as vehicle make, model, electric range, and location, enabling classification between Battery Electric Vehicles (BEV) and Plug-in Hybrid Electric Vehicles (PHEV).
