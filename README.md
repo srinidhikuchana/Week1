@@ -8,32 +8,6 @@ To develop a machine learning model that automatically classifies electric vehic
 ## Dataset
 The dataset provides comprehensive information about electric and plug-in hybrid vehicles, including technical specifications and registration details. It captures multiple features such as vehicle make, model, electric range, and location, enabling classification between Battery Electric Vehicles (BEV) and Plug-in Hybrid Electric Vehicles (PHEV).
 
-## Key Features
-
-•	VIN (1–10): Partial Vehicle Identification Number
-
-•	County / City / State / Postal Code: Registration location details (State = ‘WA’)
-
-•	Model Year: Year of vehicle manufacture
-
-•	Make / Model: Manufacturer and model name (e.g., Tesla, Nissan, Chevrolet)
-
-•	Electric Vehicle Type: BEV or PHEV (Target Column)
-
-•	CAFV Eligibility: Eligibility for clean fuel incentives
-
-•	Electric Range: Distance (in miles) the vehicle can travel on electric power alone
-
-•	Base MSRP: Manufacturer’s Suggested Retail Price
-
-•	Legislative District: District where the vehicle is registered
-
-•	DOL Vehicle ID: Unique ID assigned by the Department of Licensing
-
-•	Vehicle Location: Geographic coordinates (latitude, longitude)
-
-•	Electric Utility: Local electricity provider
-
 ## Target Variable
 
 Electric Vehicle Type — Predict whether a vehicle is a Battery Electric Vehicle (BEV) or a Plug-in Hybrid Electric Vehicle (PHEV).
