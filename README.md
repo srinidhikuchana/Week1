@@ -7,6 +7,8 @@ To develop a machine learning model that automatically classifies electric vehic
 
 ## Dataset
 The dataset provides comprehensive information about electric and plug-in hybrid vehicles, including technical specifications and registration details. It captures multiple features such as vehicle make, model, electric range, and location, enabling classification between Battery Electric Vehicles (BEV) and Plug-in Hybrid Electric Vehicles (PHEV).
+
+
 📂 Dataset Source: Download the dataset here [https://www.kaggle.com/datasets/gunapro/electric-vehicle-population-data]
 
 ## Target Variable
